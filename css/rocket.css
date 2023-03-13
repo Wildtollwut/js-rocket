@@ -1,3 +1,7 @@
+body{
+    font-family: 'helvetica', 'arial', sans-serif;
+}
+
 .left{
     background: wheat;
     position: fixed;
@@ -5,6 +9,26 @@
     height: 100%;
     top: 0;
     left: 0;
+}
+
+.interface{
+    text-align: center;
+    padding: 20px;
+}
+
+a.button{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: color 300ms;
+}
+
+a:hover{
+    color: red;
 }
 
 .right{
@@ -29,7 +53,7 @@
     position: absolute;
     bottom: 220px;
     left: 50%;
-    background: url('..img/nervous.png') no-repeat 0 0;
+    background: url('../img/nervous.png') no-repeat 0 0;
     width: 223px;
     height: 100px;
     margin-left: -180px;
@@ -44,7 +68,7 @@
     position: absolute;
     bottom: 220px;
     left: 50%;
-    background: url('..img/cant-wait.png') no-repeat 0 0;
+    background: url('../img/cant-wait.png') no-repeat 0 0;
     width: 206px;
     height: 65px;
     display: none;
